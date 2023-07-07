@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="img/menu_icon.png" width="24px" class="menu" alt="">
+
+            <img src="img/youtubelogo.jpg" width="110px" class="ytlogo" alt="">
+        </div>
+        <div class="nav-center flex-div">
+            <div class="search-wrap">
+                <div class="search-box">
+                    <input type="text" placeholder="Search" id="input" class="search" autocomplete="off">
+
+                    <img src="img/search .png" height="100%" width="100%" alt="">
+
+                </div>
+                <div class="result-box">
+
+                </div>
+            </div>
+
+            <!-- <div class="search-logo">
+                <img src="img/search .png" height="100%" width="100%" alt="">
+            </div>   -->
+
+            <ul class="list"></ul>
+            <div class="mic-wrapper">
+                <img src="img/voice-search.png" height="20px" class="mic-icon" alt="">
+            </div>
+
+        </div>
+        <div class="nav-right flex-div">
+            <div class="upload">
+                <img src="img/upload.png" alt="">
+            </div>
+            <div>
+                <img src="img/more.png" alt="">
+            </div>
+            <div>
+                <img src="img/notification.png" alt="">
+            </div>
+            <div>
+                <img src="img/jack.png" alt="" class="user-icon">
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- sidebar -->
+
+    <div class="sidebar">
+        <div class="shortcut">
+            <a href=""><img src="img/home.png" alt="">
+                <p>Home</p>
+            </a>
+            <a href=""><img src="img/explore.png" alt="">
+                <p>Explore</p>
+            </a>
+            <a href=""><img src="img/subscriprion.png" alt="">
+                <p>subscription</p>
+            </a>
+            <a href=""><img src="img/library.png" alt="">
+                <p>library</p>
+            </a>
+            <a href=""><img src="img/history.png" alt="">
+                <p>History</p>
+            </a>
+            <a href=""><img src="img/playlist.png" alt="">
+                <p>Playlist</p>
+            </a>
+            <a href="" class="last-child"><img src="img/show-more.png" alt="">
+                <p>Show More</p>
+            </a>
+            <hr>
+        </div>
+        <div class="subscriber-list">
+            <h3>subscriptions</h3>
+            <a href=""><img src="img/Jack.png" alt="">
+                <p>John abraham</p>
+            </a>
+            <a href=""><img src="img/simon.png" alt="">
+                <p>jay nikam</p>
+            </a>
+            <a href=""><img src="img/tom.png" alt="">
+                <p>rahul patel</p>
+            </a>
+            <a href=""><img src="img/tom.png" alt="">
+                <p>dipak shukla</p>
+            </a>
+            <a href=""><img src="img/cameron.png" alt="">
+                <p>akshay khanna</p>
+            </a>
+            <a href=""><img src="img/Jack.png" alt="">
+                <p>John abraham</p>
+            </a>
+            <a href=""><img src="img/simon.png" alt="">
+                <p>jay nikam</p>
+            </a>
+            <a href=""><img src="img/tom.png" alt="">
+                <p>rahul patel</p>
+            </a>
+
+            <hr>
+
+            <h3>Exlopre</h3>
+            <div class="explore-icons">
+                <img src="./img/trending-topic.png" height="20px" width="20px" alt="">
+                <p> Trending</p>
+            </div>
+            <div class="explore-icons">
+                <img src="./img/musical-note.png" height="20px" width="20px" alt="">
+                <p> Shopping</p>
+            </div>
+            <div class="explore-icons">
+                <img src="./img/live.png" height="20px" width="20px" alt="">
+                <p>Live</p>
+            </div>
+            <div class="explore-icons">
+                <img src="./img/game-controller.png" height="20px" width="20px" alt="">
+                <p> Gaming</p>
+            </div>
+            <div class="explore-icons">
+                <img src="./img/newspaper.png" height="20px" width="20px" alt="">
+                <p> News</p>
+            </div>
+            <div class="explore-icons">
+                <img src="./img/cup.png" height="20px" width="20px" alt="">
+                <p> Sports</p>
+            </div>
+            <div class="explore-icons">
+                <img src="./img/towels.png" height="20px" width="20px" alt="">
+                <p> Fashion</p>
+            </div>
+
+            <hr>
+            <h3>More from YouTube</h3>
+            <div class="explore-icons">
+                <img src="./img/youtube.png" height="20px" width="20px" alt="">
+                <p>YouTube Premium</p>
+            </div>
+            <div class="explore-icons">
+                <img src="./img/youtube (1).png" height="20px" width="20px" alt="">
+                <p>YouTube Music</p>
+            </div>
+            <div class="explore-icons">
+                <img src="./img/youtube (2).png" height="20px" width="20px" alt="">
+                <p>YouTube Kids</p>
+            </div>
+            <hr>
+
+            <div class="explore-icons">
+                <img src="./img/setting.png" height="20px" width="20px" alt="">
+                <p>Settings</p>
+            </div>
+            <div class="explore-icons">
+                <img src="./img/flags.png" height="20px" width="20px" alt="">
+                <p>Report history</p>
+            </div>
+            <div class="explore-icons">
+                <img src="./img/question-mark.png" height="20px" width="20px" alt="">
+                <p>Help</p>
+            </div>
+            <div class="explore-icons">
+                <img src="./img/feedback.png" height="20px" width="20px" alt="">
+                <p>Send Feedback</p>
+            </div>
+
+            <hr>
+            <p class="copyright">© 2023 Google LLC</p>
+        </div>
+    </div>
+
+    <!-- main -->
+    <div class="container">
+        <div class="scroll">
+            <div class="icon"><i id="left" class="fa-solid fa-angle-left"></i></div>
+            <ul class="icon-list">
+                <a href="" class="tab" id="first-icon">
+                    <p>All</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Services</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Music</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Bollywood</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Tech</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Mobile</p>
+                </a>
+                <a href="" class="tab">
+                    <p>CSS</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Travel</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Tourism</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Films</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Trekking</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Trending</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Shorts</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Tourism</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Films</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Trekking</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Trending</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Shorts</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Css</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Travel</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Tourism</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Films</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Trekking</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Trending</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Shorts</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Tourism</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Films</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Trekking</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Trending</p>
+                </a>
+                <a href="" class="tab">
+                    <p>Shorts</p>
+                </a>
+            </ul>
+            <div class="icon"><i id="right" class="fa-solid fa-angle-right"></i></div>
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+
+                <a href="video.html"><img src="./img/thumbnail7.png" class="thumbnail" alt=""></a>
+                <!-- <div class="icon-wrapper">
+                        <img src="./img/mute.png" class="hover-icon" width="20px" height="20px" alt="">
+                        <img src="./img/close-caption.png" class="hover-icon" width="20px" height="20px" alt="">
+                    </div> -->
+                <!-- <div class="icon-wrap">
+                        <a href=""><img src="./img/mute (1).png" width="20px" height="20px" alt=""></a>
+                        <a href=""><img src="./img/line.png" width="20px" height="20px" alt=""></a>
+                        <a href=""><img src="./img/closed-caption.png" width="20px" height="20px" alt=""></a>
+                    </div> -->
+
+
+                <div class="flex-div">
+                    <a href=""><img src="./img/Jack.png" class="small-img" alt=""></a>
+                    <div>
+
+                    </div>
+
+                    <div class="vid-info">
+                        <a href="">Inside the most dangerous city of NewYork</a>
+                        <a href="">
+                            <p>Passanger Paramvir</p>
+                        </a>
+                        <a href="">
+                            <p>2.5M views &bull; 8 months ago </p>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="./img/thumbnail6.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="./img/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="">Inside the most dangerous city of NewYork</a>
+                        <p>Passanger Paramvir</p>
+                        <p>2.5M views &bull; 8 months ago </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="./img/thumbnail5.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="./img/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="">Inside the most dangerous city of NewYork</a>
+                        <p>Passanger Paramvir</p>
+                        <p>2.5M views &bull; 8 months ago </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="./img/thumbnail5.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="./img/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="">Inside the most dangerous city of NewYork</a>
+                        <p>Passanger Paramvir</p>
+                        <p>2.5M views &bull; 8 months ago </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="./img/thumbnail7.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="./img/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="">Inside the most dangerous city of NewYork</a>
+                        <p>Passanger Paramvir</p>
+                        <p>2.5M views &bull; 8 months ago </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="./img/thumbnail7.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="./img/Jack.png" alt="">
+                    <div class="vid-info">
+
+                        <a href="">Inside the most dangerous city of NewYork</a>
+                        <p>Passanger Paramvir</p>
+                        <p>2.5M views &bull; 8 months ago </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="./img/thumbnail7.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="./img/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="">Inside the most dangerous city of NewYork</a>
+                        <p>Passanger Paramvir</p>
+                        <p>2.5M views &bull; 8 months ago </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="./img/thumbnail7.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="./img/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="">Inside the most dangerous city of NewYork</a>
+                        <p>Passanger Paramvir</p>
+                        <p>2.5M views &bull; 8 months ago </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="./img/thumbnail7.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="./img/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="">Inside the most dangerous city of NewYork</a>
+                        <p>Passanger Paramvir</p>
+                        <p>2.5M views &bull; 8 months ago </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="./img/thumbnail7.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="./img/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="">Inside the most dangerous city of NewYork</a>
+                        <p>Passanger Paramvir</p>
+                        <p>2.5M views &bull; 8 months ago </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="./img/thumbnail6.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="./img/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="">Inside the most dangerous city of NewYork</a>
+                        <p>Passanger Paramvir</p>
+                        <p>2.5M views &bull; 8 months ago </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="./img/thumbnail6.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="./img/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="">Inside the most dangerous city of NewYork</a>
+                        <p>Passanger Paramvir</p>
+                        <p>2.5M views &bull; 8 months ago </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="video.html"><img src="./img/thumbnail6.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="./img/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="">Inside the most dangerous city of NewYork</a>
+                        <p>Passanger Paramvir</p>
+                        <p>2.5M views &bull; 8 months ago </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer">
+
+        <div class="footer-icons">
+            <i class="fa-solid fa-house"></i>
+            <p> Home</p>
+        </div>
+        <div class="footer-icons">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                <path
+                    d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86l-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z">
+                </path>
+            </svg>
+            <path
+                d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86l-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z">
+            </path>
+            <p>Shorts</p>
+        </div>
+        <div class="footer-icons">
+            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                width="24">
+                <path d="M10,18v-6l5,3L10,18z M17,3H7v1h10V3z M20,6H4v1h16V6z M22,9H2v12h20V9z M3,10h18v10H3V10z">
+                </path>
+            </svg>
+            <p>subscription</p>
+        </div>
+        <div class="footer-icons">
+            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                width="24">
+                <path d="M11,7l6,3.5L11,14V7L11,7z M18,20H4V6H3v15h15V20z M21,18H6V3h15V18z M7,17h13V4H7V17z"></path>
+            </svg>
+            <p>Library</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
